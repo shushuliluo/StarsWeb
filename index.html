@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人介绍</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f2ff;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #b3d9ff;
+            padding: 30px 0;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #0066cc;
+            margin: 0;
+        }
+        
+        .tagline {
+            color: #4d94ff;
+            font-style: italic;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin: 20px auto;
+            display: block;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #0080ff;
+            border-bottom: 2px solid #b3d9ff;
+            padding-bottom: 10px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background-color: #cce6ff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #b3d9ff;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        
+        .social-links a {
+            color: #0066cc;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="个人照片" class="profile-pic">
+            <h1>张小明</h1>
+            <p class="tagline">网页设计师 & 前端开发工程师</p>
+        </header>
+        
+        <section id="about">
+            <h2>关于我</h2>
+            <p>你好！我是一名热爱创造美观且功能强大网站的前端开发工程师。拥有5年行业经验，专注于用户体验和响应式设计。</p>
+            <p>我相信好的设计应该是直观的、美观的，并且能够解决实际问题。我热衷于学习新技术，并将它们应用到我的项目中。</p>
+        </section>
+        
+        <section id="skills">
+            <h2>我的技能</h2>
+            <div class="skills">
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Vue.js</span>
+                <span class="skill">响应式设计</span>
+                <span class="skill">UI/UX设计</span>
+                <span class="skill">Git</span>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h2>工作经历</h2>
+            <h3>高级前端开发工程师 - ABC科技有限公司 (2019-至今)</h3>
+            <p>领导前端团队开发公司核心产品，优化网站性能，提高用户满意度30%。</p>
+            
+            <h3>网页设计师 - XYZ设计工作室 (2016-2019)</h3>
+            <p>为各类客户设计并开发响应式网站，获得多个设计奖项。</p>
+        </section>
+        
+        <section id="education">
+            <h2>教育背景</h2>
+            <h3>计算机科学与技术学士 - 北京大学 (2012-2016)</h3>
+            <p>主修网页设计与开发方向，GPA 3.8/4.0</p>
+        </section>
+        
+        <footer>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">微博</a>
+                <a href="mailto:contact@example.com">联系我</a>
+            </div>
+            <p>© 2023 张小明. 保留所有权利。</p>
+        </footer>
+    </div>
+</body>
+</html>
